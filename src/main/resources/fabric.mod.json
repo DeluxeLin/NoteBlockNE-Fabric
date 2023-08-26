@@ -1,0 +1,29 @@
+{
+    "schemaVersion": 1,
+    "id": "noteblockne",
+    "version": "${version}",
+    "name": "Noteblock NE Fabric",
+    "description": "屑月饼火速给我问答版转账500金",
+    "authors": [
+        "LinGCar"
+    ],
+    "contact": {
+        "repo": "github.com/deluxelin/NNEFabric"
+    },
+    "license": "LGPL-3.0",
+    "icon": "assets/nnefabric/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "top.lingcar4870.nnefabric.NoteblockNE"
+        ]
+    },
+    "mixins": [
+        "nnefabric.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=0.14.22",
+        "fabric": "*",
+        "minecraft": "1.16.5"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "top.lingcar4870.nnefabric.mixin",
+    "compatibilityLevel": "JAVA_8",
+    "mixins": [
+
+    ],
+    "client": [
+        "MixinTuningScreenHandler"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}

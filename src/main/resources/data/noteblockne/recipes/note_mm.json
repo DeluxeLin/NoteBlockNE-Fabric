@@ -1,0 +1,19 @@
+{
+    "pattern": [
+        " N ",
+        " P ",
+        "   "
+    ],
+    "key": {
+        "P": {
+            "tag": "minecraft:planks"
+        },
+        "N": {
+            "item": "minecraft:note_block"
+        }
+    },
+    "type": "minecraft:crafting_shaped",
+    "result": {
+        "item": "noteblockne:note_mm"
+    }
+}
